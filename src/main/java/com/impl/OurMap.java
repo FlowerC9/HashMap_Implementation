@@ -56,6 +56,27 @@ public class OurMap<K,V>
         head=bucket.get(bucketIndex);
         newHead.next=head;
         bucket.set(bucketIndex,newHead);
+
+        double load_factor=(1.0 * size)/capacity;
+        System.out.println("Inserting Key "+key);
+        System.out.println("Load factor : "+load_factor);
+        if(load_factor>0.7) rehash();
+    }
+    private void rehash(){
+        System.out.println("Rehashing buckets");
+        List<MapNode<K,V>>temp=bucket;
+        bucket=new ArrayList<>();
+        for(int i=0;i<capacity;i++){
+            bucket.add(null);
+        }
+        size=0;
+        for(int i=0;i<capacity;i++){
+            MapNode<K,V>head=temp.get(i);
+            while(head!=null){
+                put(head.key, head.value);
+                head=head.next;
+            }
+        }
     }
     public void remove(K key){
         int bucketIndex=getBucketIndex(key);
