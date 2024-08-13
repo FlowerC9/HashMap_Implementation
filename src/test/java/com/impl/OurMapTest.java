@@ -91,9 +91,6 @@ public class OurMapTest extends TestCase {
         assertEquals(Integer.valueOf(1), map.get("key1"));
     }
 
-    /**
-     * Test handling of null keys and values.
-     */
     public void testNullKeyOrValue() {
         try {
             map.put(null, 1);
