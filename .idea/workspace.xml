@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16935ba3-ace8-49b2-b955-962c702554d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/impl/OurMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/impl/OurMapTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.OurMapTest.testMapStartsEmpty.executor": "Run",
+    "JUnit.OurMapTest.testNullKeyOrValue.executor": "Run",
+    "JUnit.OurMapTest.testPutAndGetMultipleElements.executor": "Run",
+    "JUnit.OurMapTest.testPutAndGetSingleElement.executor": "Run",
+    "JUnit.OurMapTest.testPutAndUpdateElement.executor": "Run",
+    "JUnit.OurMapTest.testRemoveElement.executor": "Run",
+    "JUnit.OurMapTest.testRemoveNonExistentElement.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.OurMapTest">
+    <configuration name="OurMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OurMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.impl.OurMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OurMapTest.testNullKeyOrValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OurMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.impl.OurMapTest" />
+      <option name="METHOD_NAME" value="testNullKeyOrValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OurMapTest.testPutAndGetMultipleElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OurMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.impl.OurMapTest" />
+      <option name="METHOD_NAME" value="testPutAndGetMultipleElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OurMapTest.testRemoveElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OurMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.impl.OurMapTest" />
+      <option name="METHOD_NAME" value="testRemoveElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OurMapTest.testRemoveNonExistentElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OurMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.impl.OurMapTest" />
+      <option name="METHOD_NAME" value="testRemoveNonExistentElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OurMapTest" />
+        <item itemvalue="JUnit.OurMapTest.testNullKeyOrValue" />
+        <item itemvalue="JUnit.OurMapTest.testRemoveNonExistentElement" />
+        <item itemvalue="JUnit.OurMapTest.testRemoveElement" />
+        <item itemvalue="JUnit.OurMapTest.testPutAndGetMultipleElements" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16935ba3-ace8-49b2-b955-962c702554d6" name="Changes" comment="" />
+      <created>1723537998075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723537998075</updated>
+    </task>
+    <servers />
+  </component>
+</project>
